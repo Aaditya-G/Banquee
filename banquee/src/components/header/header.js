@@ -30,7 +30,7 @@ class Header extends Component {
           </div>
         </div>
         </div>
-        
+        <div className="disclaimer">Please view in your monitor</div>
       </div>
     );
   }
