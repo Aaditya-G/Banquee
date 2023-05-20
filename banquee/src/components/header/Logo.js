@@ -1,5 +1,4 @@
 import "./header.css";
-import rect from "../../images/logo_rect.svg";
 import star from "../../images/Star.svg";
 import { Component } from "react";
 

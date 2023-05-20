@@ -1,47 +1,69 @@
 @font-face {
-    font-family: 'CustomFont';
+    font-family: 'CustomFont1';
     src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
     /* You can specify additional font properties if needed */
   }
 
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
 
 .Header{
-    background-color: #4C27AE;
-    border-radius: 30px;
-    margin: 4vh 1vw 4vh 1vw;
-    height: 90vh;
-    width: 98vw;
+    background-color: #101010;
+    width: 96vw;
+    padding: 5vh 2vw 0 2vw;
+    font-family: 'CustomFont1';
 }
 
+
+
+.header-main{
+    background-color: #4C27AE;
+    border-radius: 40px;
+    padding-top: 5vh;
+    height: 80vh;
+   
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-start;
+
+}
+
+.header-content-leftpane{
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: space-around;
+}
 
 .hero{
     max-width: 40vw;
-    margin: 10vh 0 0 55vw;
+    transform: translate(-2vw,0);
 }
 
 .text-1{
-
-
-font-family: 'CustomFont';
-font-style: normal;
-font-weight: 900;
-font-size: 90px;
-line-height: 113px;
+font-size: 4vw;
+line-height: 10vh;
 text-transform: uppercase;
 
 color: #FFFFFF;
 }
 
 .text-2{
-   
-
-font-family: 'CustomFont';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 28px;
-
+    font-family: 'CustomFont2';
+font-size: 1.3vw;
+line-height: 1.2vw;
 color: #FFFFFF;
+width: 40vw;
 
 }
 
@@ -58,30 +80,29 @@ color: #FFFFFF;
     .cheese-image{
         display: none;
     }
+    .btn{
+        display: none;
+    }
     
 }
 
 
 .btn{
-
-
 background: #ED7E02;
 border-radius: 100px;
+max-width: 20vw;
+display: flex;
+height: 10vh;
+justify-content: space-evenly;
+align-items: center;
 }
 
 
 
-.text-get-started{
-    position: absolute;
-width: 316px;
-height: 43px;
-left: 55px;
-top: 40px;
-
-font-family: 'CustomFont';
-font-weight: 1200;
-font-size: 34px;
-line-height: 43px;
+.text-get-started{ 
+font-family: 'CustomFont1';
+font-size: 1.2vw;
+line-height: 1.4vw;
 color: #101010;
 }
 
@@ -98,7 +119,6 @@ color: #101010;
 }
 
 .logo{
-    margin: 2vh;
     padding:2vh 2vw 2vh 2vw;
     display: flex;
     background-color: #101010;
@@ -111,7 +131,7 @@ color: #101010;
     
     display: flex;
     align-self: center;
-font-family:'CustomFont';
+font-family:'CustomFont1';
 text-align: center;
 text-transform: uppercase;
 font-size: 3vh;

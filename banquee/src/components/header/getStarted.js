@@ -9,8 +9,11 @@ class Btn extends Component{
                 <div className="text-get-started">
                     GET STARTED
                 </div>
+                <div className="arrows">
                 <img src={arrow} alt="" className='first'/>
                 <img src={arrow} alt="" className='second'/>
+                </div>
+                
             </div>
         )
     }
