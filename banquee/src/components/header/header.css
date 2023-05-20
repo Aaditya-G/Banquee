@@ -15,7 +15,7 @@
 .Header{
     background-color: #101010;
     width: 96vw;
-    padding: 5vh 2vw 0 2vw;
+    padding: 5vh 1vw 0 1vw;
     font-family: 'CustomFont1';
 }
 
@@ -46,8 +46,8 @@
 }
 
 .hero{
-    max-width: 40vw;
-    transform: translate(-2vw,0);
+    max-width: 35vw;
+    transform: translate(-5vw,-5vh);
 }
 
 .text-1{
