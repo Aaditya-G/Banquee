@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
+.Header{
+    background-color: #4C27AE;
+    border-radius: 30px;
+    margin: 4vh 1vw 4vh 1vw;
+    height: 90vh;
+    width: 98vw;
+}
+
+
+.hero{
+    max-width: 40vw;
+    margin: 10vh 0 0 55vw;
+}
+
+.text-1{
+
+
+font-family: 'CustomFont';
+font-style: normal;
+font-weight: 900;
+font-size: 90px;
+line-height: 113px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.text-2{
+   
+
+font-family: 'CustomFont';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+}
+
+
+.cheese-image{
+    /* max-width: 48px;
+    max-height: 48px; */
+    margin: 0 0 0 90vw;
+    transform: translate(0,-8vh);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .cheese-image{
+        display: none;
+    }
+    
+}
+
+
+.btn{
+
+
+background: #ED7E02;
+border-radius: 100px;
+}
+
+
+
+.text-get-started{
+    position: absolute;
+width: 316px;
+height: 43px;
+left: 55px;
+top: 40px;
+
+font-family: 'CustomFont';
+font-weight: 1200;
+font-size: 34px;
+line-height: 43px;
+color: #101010;
+}
+
+
+
+
+
+.header-logo{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: center;
+}
+
+.logo{
+    margin: 2vh;
+    padding:2vh 2vw 2vh 2vw;
+    display: flex;
+    background-color: #101010;
+    border-radius: 100px;
+    width: 30vh;
+    justify-content: space-evenly;
+}
+
+.logo-text{
+    
+    display: flex;
+    align-self: center;
+font-family:'CustomFont';
+text-align: center;
+text-transform: uppercase;
+font-size: 3vh;
+
+color: #FFFFFF;
+
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './getStarted.css'
-import arrow from '../images/Vector.svg'
+import './header.css'
+import arrow from '../../images/Vector.svg'
 
 class Btn extends Component{
     render(){
