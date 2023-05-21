@@ -3,6 +3,7 @@ import Header from './components/header/header.js'
 import Sponsors from './components/sponsors/sponsor.js'
 import Features  from './components/features/features';
 import GoDigital from './components/goDigital/godigital';
+import Business from  './components/business/business'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Sponsors />
       <Features />
       <GoDigital/>
+      <Business/>
       </div>
      
     </div>

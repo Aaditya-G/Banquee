@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+.business{
+    color: white;
+    font-family: 'CustomFont1';
+}
+
+
+.business-header{
+    padding: 20vh 0vw 0 10vw;
+    font-family: 'CustomFont1';
+    font-size: 3vw;
+    width: 55vw;
+}
+
+.business-cardholder{
+  display: flex;
+  padding: 10vh 5vw 10vh 5vw;
+  justify-content: space-around;
+  height: 50vh;
+  font-size: 1.1vw;
+}
+
+.business-bigcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4C27AE;
+    width: 40vw;
+    border-radius: 40px;
+}
+
+.business-smallcard{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dashed 5px #5631B8;
+    border-radius: 40px;
+    width: 20vw;
+}
