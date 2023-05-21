@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
+
+
+
+
+.Features{
+    padding: 15vh 5vw 10vh 5vw;
+    color: white;
+    font-family: 'CustomFont1';
+    
+}
+
+
+.feature-main{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+
+}
+
+
+.feature-main-content{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.feature-main-header{
+ 
+    font-size: 2.6vw;
+    color: white;
+    width:50vw;
+}
+
+
+.feature-main-row{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    height:27vh;
+}
+
+.purple-card{
+    width: 63vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: dashed 10px #4C27AE;
+    border-radius: 40px;
+    font-size: 2vw;
+    text-align: center;
+
+    
+}
+
+.orange-card{
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25vw;
+    background-color:  #ED7E02;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+
+.orange-card-text{
+    width: 20vw;
+}

@@ -7,7 +7,7 @@ class Sponsors extends Component{
         return (
             <div className="sponsor">
                 <div className="sponsor-img">
-                    <img src={svg} alt="" />
+                    <img src={svg} alt=""  id="img"/>
                 </div>
             </div>
         )
