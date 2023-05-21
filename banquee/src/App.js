@@ -7,6 +7,7 @@ import Business from  './components/business/business'
 import Personally from './components/personally/personally';
 import Trust from './components/trust/trust';
 import Faq from './components/faq/faq';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Personally/>
       <Trust/>
       <Faq />
+      <Footer />
       </div>
      
     </div>
