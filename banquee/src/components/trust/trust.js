@@ -18,10 +18,10 @@ class Trust extends Component{
                 </div>
                 <div className="trust-main">
                     <div className="trust-main-card">
-                        <Card header={H1} content={C1} svg={pfp1} />
+                        <Card header={H1} content={C1} svg={pfp1} name="WILLIAM TROMP" position="CTO - Gislason and Sons"/>
                     </div>
                     <div className="trust-main-card">
-                        <Card header={H2} content={C2} svg={pfp2} />
+                        <Card header={H2} content={C2} svg={pfp2} name="REBECCA EMARD" position="Founder - Conn Inc" />
                     </div>
                 </div>
             </div>

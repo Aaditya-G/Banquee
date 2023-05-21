@@ -53,3 +53,18 @@
     font-family: 'CustomFont2';
     font-size: 1.2vw;
 }
+
+.trust-card-svg{
+    display: flex;
+    align-items: center;
+}
+
+.trust-card-author{
+    font-size: 1vw;
+    color: gray;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5vh;
+}

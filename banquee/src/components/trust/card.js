@@ -20,6 +20,15 @@ const Card = (props) => {
       <div className="trust-card-content">{props.content}</div>
       <div className="trust-card-svg">
         <img src={props.svg} alt="" />
+        <div className="trust-card-author">
+           <div id="name">
+           {props.name}
+            </div> 
+            <div id="position">
+            {props.position}
+            </div>
+            
+        </div>
       </div>
     </div>
   );
