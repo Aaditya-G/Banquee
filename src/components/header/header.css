@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
+
+.Header{
+    background-color: #000000;
+    width: 96vw;
+    padding: 5vh 1vw 0 1.3vw;
+    font-family: 'CustomFont1';
+}
+
+
+
+.header-main{
+    background-color: #4C27AE;
+    border-radius: 40px;
+    padding-top: 5vh;
+    height: 80vh;
+   
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-start;
+
+}
+
+.header-content-leftpane{
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: space-around;
+}
+
+.hero{
+    /* max-width: 35vw; */
+    width: 40vw;
+    transform: translate(-5vw,-5vh);
+}
+
+.text-1{
+font-size: 4vw;
+line-height: 10vh;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.text-2{
+    font-family: 'CustomFont2';
+font-size: 1.3vw;
+line-height: 1.2vw;
+color: #FFFFFF;
+width: 40vw;
+
+}
+
+
+.cheese-image{
+    /* max-width: 48px;
+    max-height: 48px; */
+    margin: 0 0 0 90vw;
+    transform: translate(0,-8vh);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .header-main{
+        display: none;
+    }
+    .disclaimer{
+        display: inline;
+        color: #FFFFFF;
+    }
+    
+}
+
+
+@media only screen and (min-width: 500px) {
+.disclaimer{
+    display: none;
+}}
+
+
+.btn{
+background: #ED7E02;
+border-radius: 100px;
+max-width: 20vw;
+display: flex;
+height: 10vh;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+
+.text-get-started{ 
+font-family: 'CustomFont1';
+font-size: 1.2vw;
+line-height: 1.4vw;
+color: #101010;
+}
+
+
+
+
+
+.header-logo{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: center;
+}
+
+.logo{
+    padding:2vh 2vw 2vh 2vw;
+    display: flex;
+    background-color: #101010;
+    border-radius: 100px;
+    width: 30vh;
+    justify-content: space-evenly;
+}
+
+.logo-text{
+    
+    display: flex;
+    align-self: center;
+font-family:'CustomFont1';
+text-align: center;
+text-transform: uppercase;
+font-size: 3vh;
+
+color: #FFFFFF;
+
+}

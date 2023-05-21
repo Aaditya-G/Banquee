@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
+
+
+.FAQ{
+    color: white;
+    font-family: 'CustomFont1'; 
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+.faqheader{
+    font-size: 3vw;
+}
+
+
+.FAQ-cardholder{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-around;
+    padding: 10vh 0 0 0 ;
+}
+
+.faq-card{
+    display: flex;
+    transform: rotate(2deg);
+    background-color: #4C27AE;
+    padding: 5vh 5vw 5vh 5vw;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    align-items: center;
+    text-transform: uppercase;
+}

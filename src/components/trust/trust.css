@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
+
+
+.Trust{
+    color: white;
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+.trust-header{
+    font-family: 'CustomFont1';
+    font-size: 2vw;
+    padding: 10vh 0 10vh 0;
+}
+
+.trust-main{
+    padding: 10vh 5vw 10vh 5vw;
+    background-color:#ff8800;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trust-card{
+    padding:0 2vw 0 2vw;
+    background-color: white;
+    color: black;
+    width: 35vw;
+    border-radius: 40px;
+    font-family: 'CustomFont1';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.trust-card-header{
+    font-size: 1.5vw;
+}
+
+.trust-card-content{
+    font-family: 'CustomFont2';
+    font-size: 1.2vw;
+}
+
+.trust-card-svg{
+    display: flex;
+    align-items: center;
+}
+
+.trust-card-author{
+    font-size: 1vw;
+    color: gray;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5vh;
+}

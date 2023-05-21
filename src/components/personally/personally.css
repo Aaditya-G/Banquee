@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../fonts/GT-America-Expanded-Bold-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('../../fonts/GT-America-Expanded-Regular-Trial.otf') format('truetype');
+    /* You can specify additional font properties if needed */
+  }
+
+
+
+.personally{
+    color: white;
+}
+
+.per-main{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5vw 10vh 5vw;
+}
+
+.per-header{
+    padding: 10vh 5vw 10vh 5vw ;
+    font-family: 'CustomFont1';
+    font-size: 3vw;
+}
+
+.per-row-header{
+    font-family: 'CustomFont1';
+    font-size: 1.5vw;
+}
+
+.per-row-content{
+    font-family: 'CustomFont2';
+    font-size: 1vw;
+}
+
+.per-leftpane{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.per-row2-header{
+    font-family: 'CustomFont1';
+    font-size: 1.5vw;
+    text-align: right;
+}
+
+.per-rightpane{
+    width: 40vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.per-row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    padding: 2vh 0 2vh 0;
+}
+
+#mobile-img{
+    width: 40vw;
+}

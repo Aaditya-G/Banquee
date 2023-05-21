@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main{
+        display: none;
+    }
+    .disc{
+        color: white;
+        font-size: 10vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .disc{
+        display: none;
+    }
+}
