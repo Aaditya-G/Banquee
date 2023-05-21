@@ -27,14 +27,14 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 85vh;
     justify-content: space-between;
 
 }
 
 
 .feature-main-content{
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -52,7 +52,7 @@
     display: flex;
     width: 90vw;
     justify-content: space-between;
-    height:27vh;
+    height:30vh;
 }
 
 .purple-card{
@@ -69,10 +69,10 @@
 }
 
 .orange-card{
-    font-size: 2vw;
+    font-size: 1.8vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 25vw;
     background-color:  #ED7E02;
@@ -82,5 +82,5 @@
 }
 
 .orange-card-text{
-    width: 20vw;
+    width: 18vw;
 }

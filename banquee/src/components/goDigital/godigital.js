@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./godigital.css"
 import svg from "../../images/bank.svg"
-import Btn from "../header/getStarted"
+import Btn from "./getStarted"
 
 class GoDigital extends Component {
     render () {
