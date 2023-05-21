@@ -4,6 +4,7 @@ import Sponsors from './components/sponsors/sponsor.js'
 import Features  from './components/features/features';
 import GoDigital from './components/goDigital/godigital';
 import Business from  './components/business/business'
+import Personally from './components/personally/personally';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Features />
       <GoDigital/>
       <Business/>
+      <Personally/>
       </div>
      
     </div>
