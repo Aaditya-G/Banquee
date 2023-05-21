@@ -54,8 +54,8 @@
 .per-rightpane{
     width: 40vw;
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .per-row-1{

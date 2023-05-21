@@ -5,6 +5,8 @@ import Features  from './components/features/features';
 import GoDigital from './components/goDigital/godigital';
 import Business from  './components/business/business'
 import Personally from './components/personally/personally';
+import Trust from './components/trust/trust';
+import Faq from './components/faq/faq';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <GoDigital/>
       <Business/>
       <Personally/>
+      <Trust/>
+      <Faq />
       </div>
      
     </div>
