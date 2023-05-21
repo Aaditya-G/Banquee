@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header/header.js'
 import Sponsors from './components/sponsors/sponsor.js'
 import Features  from './components/features/features';
+import GoDigital from './components/goDigital/godigital';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Sponsors />
       <Features />
+      <GoDigital/>
       </div>
      
     </div>
