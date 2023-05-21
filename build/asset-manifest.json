@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ddeda34c.css",
+    "main.js": "/static/js/main.b767fa69.js",
+    "static/js/787.6b3001af.chunk.js": "/static/js/787.6b3001af.chunk.js",
+    "static/media/smallBusiness.svg": "/static/media/smallBusiness.965fef42af3be3ec3b7506d4e86c7343.svg",
+    "static/media/Hero.svg": "/static/media/Hero.0106d9b0dfb48173f8cde9a480cff201.svg",
+    "static/media/startups.svg": "/static/media/startups.b7043df5c2b552195e175c6e6f21682d.svg",
+    "static/media/enterprises.svg": "/static/media/enterprises.f03e15bda817587965dacfe10c02e710.svg",
+    "static/media/hidden.svg": "/static/media/hidden.724ce6906d118cadfd33f4c9b89d213e.svg",
+    "static/media/automatic.svg": "/static/media/automatic.7aef8b15c116e28848319fba2880ace1.svg",
+    "static/media/secure.svg": "/static/media/secure.d58d1d639def4c2509321291aee3b9cd.svg",
+    "static/media/bank.svg": "/static/media/bank.670fab5c360e2aabc2a3f3dce91a8b8b.svg",
+    "static/media/mobile.svg": "/static/media/mobile.b9afae351c7b30286cee7f29cca02abf.svg",
+    "static/media/card.svg": "/static/media/card.9909e03daf48e3ef6a3584809acc87a0.svg",
+    "static/media/pfp-1.svg": "/static/media/pfp-1.cf104283f7a2a8bb752ef3b5e7ca1d98.svg",
+    "static/media/sponsor.svg": "/static/media/sponsor.92a1ceb37867524076febb61dc57ea62.svg",
+    "static/media/pfp-2.svg": "/static/media/pfp-2.ac2984dbfe693c6b678d80f477c76ff1.svg",
+    "static/media/GT-America-Expanded-Bold-Trial.otf": "/static/media/GT-America-Expanded-Bold-Trial.f13e852eaa4a0fc126ae.otf",
+    "static/media/GT-America-Expanded-Regular-Trial.otf": "/static/media/GT-America-Expanded-Regular-Trial.8a36a6f2ff83c5e9aca1.otf",
+    "static/media/Star4.svg": "/static/media/Star4.99e2203675140bcfda0b69fc52231762.svg",
+    "static/media/Star.svg": "/static/media/Star.4eff37f40bd549e015e41ab56456a4ce.svg",
+    "index.html": "/index.html",
+    "static/media/circleAdd.svg": "/static/media/circleAdd.2e2b8bba61d0a307c4557b62b407e767.svg",
+    "static/media/Vector.svg": "/static/media/Vector.08782baeb2252f09e059e5e9a4d4b566.svg",
+    "static/media/vectorBlack.svg": "/static/media/vectorBlack.86e7f134e339f84aa5fb940a63048c46.svg",
+    "static/media/Cheeseburger.svg": "/static/media/Cheeseburger.36cca04739f78d81235ff737c60814a9.svg",
+    "main.ddeda34c.css.map": "/static/css/main.ddeda34c.css.map",
+    "main.b767fa69.js.map": "/static/js/main.b767fa69.js.map",
+    "787.6b3001af.chunk.js.map": "/static/js/787.6b3001af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddeda34c.css",
+    "static/js/main.b767fa69.js"
+  ]
+}
